@@ -1,0 +1,5 @@
+{
+  "nome_do_dataset": "Participação de Atletas por Sexo",
+  "descricao": "Dataset unificado com o nome, sexo e edição de todos os atletas que já participaram das Olimpíadas.",
+  "campos_principais": ["name", "sex", "edition"]
+}

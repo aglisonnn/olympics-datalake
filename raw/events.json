@@ -1,0 +1,8 @@
+{
+  "nome_do_dataset": "Eventos de Paris 2024",
+  "fonte": "Kaggle",
+  "descricao": "Lista de todos os eventos e modalidades esportivas disputadas em Paris 2024.",
+  "campos_principais": ["event", "sport", "sport_code"],
+  "data_de_coleta": "2026-03-29",
+  "observacoes": "Será usado para compor a tabela de modalidades."
+}

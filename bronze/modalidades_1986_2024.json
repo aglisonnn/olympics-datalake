@@ -1,0 +1,5 @@
+{
+  "nome_do_dataset": "Modalidades e Eventos Olímpicos",
+  "descricao": "Lista de todos os esportes e eventos disputados agrupados por edição olímpica.",
+  "campos_principais": ["edition", "sport", "event"]
+}
