@@ -1,0 +1,10 @@
+{
+  "nome_do_dataset": "Medalhas Consolidadas (Histórico + Paris 2024)",
+  "fonte": "Data Lake - Camada Raw",
+  "descricao": "Dataset integrado contendo o histórico de medalhas desde 1896 somado aos dados recentes de Paris 2024. Dados padronizados e convertidos para o formato Parquet.",
+  "campos_principais": [
+    "year", "edition", "country", "gold", "silver", "bronze", "total"
+  ],
+  "data_de_coleta": "2026-03-29",
+  "observacoes": "Gerado através da concatenação (JOIN/Append) dos arquivos brutos via Pandas."
+}
