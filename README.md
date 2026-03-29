@@ -14,7 +14,7 @@ A organização dos diretórios segue a divisão por camadas de maturidade dos d
 
 Todos os datasets do Data Lake estão documentados. Na raiz do projeto, encontra-se o `metadata_schema.json`, que define o padrão (schema) utilizado para descrever os dados em todas as camadas.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Python**: Linguagem principal para o pipeline de dados.
 - **Pandas & PyArrow**: Para leitura, integração (JOINs/Appends) e conversão para formato Parquet.
@@ -25,4 +25,4 @@ Todos os datasets do Data Lake estão documentados. Na raiz do projeto, encontra
 
 1. Clone este repositório.
 2. Certifique-se de ter as bibliotecas instaladas: `pip install pandas pyarrow matplotlib`
-3. Navegue até `gold/analise_medalhas/` e execute as células do arquivo `notebook.ipynb`.
+3. Navegue até qualquer uma das pastas dentro de `gold/` e execute as células do arquivo `notebook.ipynb` correspondente.
