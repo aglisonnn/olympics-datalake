@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Esquema de Metadados do Data Lake",
+  "type": "object",
+  "properties": {
+    "nome_do_dataset": { "type": "string", "description": "Nome legível do conjunto de dados" },
+    "fonte": { "type": "string", "description": "Origem dos dados" },
+    "descricao": { "type": "string", "description": "O que o dataset representa" },
+    "campos_principais": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Lista das colunas mais importantes"
+    },
+    "data_de_coleta": { "type": "string", "description": "Data em que o dado foi ingerido no Data Lake" },
+    "observacoes": { "type": "string", "description": "Qualquer detalhe extra sobre tratamento ou qualidade" }
+  },
+  "required": ["nome_do_dataset", "fonte", "descricao", "campos_principais", "data_de_coleta"]
+}
